@@ -9,6 +9,7 @@
 
 header {
     background-color: #ffffff;
+    box-shadow: 5px 0 10px #2a292d;
 
 }
 
@@ -69,6 +70,8 @@ section {
     margin-bottom: 130px;
     padding: 0 25px 30px 25px;
     border: solid  1px #dddddd;
+    box-shadow: 5px 5px 20px #2a292d;
+    border-radius: 5px;
 }
 
 hr {
@@ -98,6 +101,7 @@ section p {
     line-height: 30px;
     width: 900px;
     margin-top: 10px;
+    text-indent: 20px;
 }
 
 /*Contact Form*/
@@ -140,7 +144,7 @@ input[type=submit]:hover {
 
 /* Portfolio Page */
 
-#cat-1 {
+.cat-1 {
     position: relative;
     padding: 0 auto;
     margin-top: 30px;
@@ -185,3 +189,131 @@ footer {
     clear: both;
     display: table;
   }
+
+/* Responsive */
+@media screen and (min-width: 640px) {
+    
+    .h-container {
+        width: 640px;
+    }
+
+    header h1  {
+        width: 640px;
+        text-align: center;
+        padding: 24px;
+    }
+
+    nav ul {
+        margin-left: 182px;
+        padding: 20px 0;
+    }
+
+    li {
+        margin: 0 20px;
+    }
+
+    #container {
+        width: 580px;
+        margin-left: 30px;
+    }
+
+    section p {
+        width: 520px;
+    }
+
+    hr {
+        margin-bottom: 20px;
+    }
+/* Portfolio layout */
+
+    .cat-1 {
+        margin: 10px 0 10px 125px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .h-container {
+        width: 768px;
+    }
+
+    header h1  {
+        width: 280px;
+        margin-left: 35px;
+    }
+
+    nav ul {
+        padding: 31px 0;
+        margin-left: 155px;
+    }
+
+    li {
+        margin: 0 20px;
+    }
+
+    #container {
+        width: 700px;
+        margin-left: 35px;
+    }
+
+    section p {
+        width: 660px;
+    }
+
+    hr {
+        margin-bottom: 20px;
+    }
+
+/* Portfolio layout */
+
+    .cat-1 {
+        margin: 10px 10px 30px 30px;
+    }
+ 
+}
+
+@media screen and (max-width: 980px) {
+
+/* Page Layout for 980px screens */
+
+.h-container {
+    width: 980px;
+}
+
+header h1  {
+    width: 280px;
+    margin-left: 30px;
+}
+
+nav ul {
+    padding: 31px 0;
+    margin-left: 370px;
+}
+
+li {
+    margin: 0 20px;
+}
+
+#container {
+    width: 660px;
+    margin-left: 30px;
+}
+
+section p {
+    width: 610px;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+/* Portfolio layout */
+
+.cat-1 {
+    margin: 10px 10px 25px 15px;
+}
+
+}
+
+
