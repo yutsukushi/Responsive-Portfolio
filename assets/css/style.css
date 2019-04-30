@@ -26,6 +26,7 @@ header h1  {
     float: left;
 }
 
+
 nav ul {
     padding: 24px 0;
     list-style-type: none;
@@ -191,16 +192,107 @@ footer {
   }
 
 /* Responsive */
-@media screen and (min-width: 640px) {
-    
+
+@media screen and (max-width: 980px) {
+
+/* Page Layout for 980px screens */
+
     .h-container {
-        width: 640px;
+        width: 980px;
     }
 
     header h1  {
+        width: 280px;
+        margin-left: 30px;
+        padding: 24px;
+    }
+
+  
+    nav ul {
+        padding: 31px 0;
+        margin-left: 370px;
+    }
+
+    li {
+        margin: 0 20px;
+    }
+
+    #container {
+        width: 660px;
+        margin-left: 30px;
+    }
+
+    section p {
+        width: 610px;
+    }
+
+    hr {
+        margin-bottom: 20px;
+    }
+
+    /* Portfolio layout */
+
+    .cat-1 {
+        margin: 10px 10px 25px 15px;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .h-container {
+        width: 768px;
+    }
+
+    header h1  {
+        width: 280px;
+        margin-left: 35px;
+        padding: 24px;
+    }
+
+    nav ul {
+        padding: 31px 0;
+        margin-left: 155px;
+    }
+
+    li {
+        margin: 0 20px;
+    }
+
+    #container {
+        width: 700px;
+        margin-left: 35px;
+    }
+
+    section p {
+        width: 650px;
+    }
+
+    hr {
+        margin-bottom: 20px;
+    }
+
+/* Portfolio layout */
+
+    .cat-1 {
+        margin: 10px 10px 30px 30px;
+    }
+ 
+}
+    
+@media screen and (max-width: 640px) {
+    
+    .h-container {
+        width: 640px;
+        
+    }
+
+    header h1 {
         width: 640px;
         text-align: center;
         padding: 24px;
+        margin: 0;
     }
 
     nav ul {
@@ -231,89 +323,4 @@ footer {
     }
 
 }
-
-@media screen and (min-width: 768px) {
-
-    .h-container {
-        width: 768px;
-    }
-
-    header h1  {
-        width: 280px;
-        margin-left: 35px;
-    }
-
-    nav ul {
-        padding: 31px 0;
-        margin-left: 155px;
-    }
-
-    li {
-        margin: 0 20px;
-    }
-
-    #container {
-        width: 700px;
-        margin-left: 35px;
-    }
-
-    section p {
-        width: 660px;
-    }
-
-    hr {
-        margin-bottom: 20px;
-    }
-
-/* Portfolio layout */
-
-    .cat-1 {
-        margin: 10px 10px 30px 30px;
-    }
- 
-}
-
-@media screen and (max-width: 980px) {
-
-/* Page Layout for 980px screens */
-
-.h-container {
-    width: 980px;
-}
-
-header h1  {
-    width: 280px;
-    margin-left: 30px;
-}
-
-nav ul {
-    padding: 31px 0;
-    margin-left: 370px;
-}
-
-li {
-    margin: 0 20px;
-}
-
-#container {
-    width: 660px;
-    margin-left: 30px;
-}
-
-section p {
-    width: 610px;
-}
-
-hr {
-    margin-bottom: 20px;
-}
-
-/* Portfolio layout */
-
-.cat-1 {
-    margin: 10px 10px 25px 15px;
-}
-
-}
-
 
