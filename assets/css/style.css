@@ -10,15 +10,15 @@
 header {
     background-color: #ffffff;
     box-shadow: 5px 0 10px #2a292d;
-
 }
 
 .h-container {
     width: 960px;
     margin: 0 auto;
+    height: 71px;
 }
 
-header h1  {
+.logo  {
     background-color:#4aaaa5;
     color: #ffffff;
     width: 260px;
@@ -26,12 +26,16 @@ header h1  {
     float: left;
 }
 
+nav {
+    float: right;
+
+}
 
 nav ul {
     padding: 24px 0;
     list-style-type: none;
     display: inline-block;
-    margin-left: 360px;
+    
 }
 
 li {
@@ -196,21 +200,20 @@ footer {
 @media screen and (max-width: 980px) {
 
 /* Page Layout for 980px screens */
-
+/* IMPORTANT: can't set width to the same screen size. */
     .h-container {
-        width: 980px;
+        width: 768px;
+        height: 85px;
     }
 
-    header h1  {
+    .logo  {
         width: 280px;
-        margin-left: 30px;
+        margin-left: auto;
         padding: 24px;
     }
 
-  
     nav ul {
         padding: 31px 0;
-        margin-left: 370px;
     }
 
     li {
@@ -218,12 +221,11 @@ footer {
     }
 
     #container {
-        width: 660px;
-        margin-left: 30px;
+        width: 768px;
     }
 
     section p {
-        width: 610px;
+        width: 720px;
     }
 
     hr {
@@ -235,25 +237,26 @@ footer {
     .cat-1 {
         margin: 10px 10px 25px 15px;
     }
-
 }
 
 
 @media screen and (max-width: 768px) {
 
     .h-container {
-        width: 768px;
+        width: 640px;
     }
 
-    header h1  {
+    header {
+        margin-bottom: 85px;
+    }
+
+    .logo  {
         width: 280px;
-        margin-left: 35px;
         padding: 24px;
     }
 
     nav ul {
         padding: 31px 0;
-        margin-left: 155px;
     }
 
     li {
@@ -261,12 +264,11 @@ footer {
     }
 
     #container {
-        width: 700px;
-        margin-left: 35px;
+        width: 640px;
     }
 
     section p {
-        width: 650px;
+        width: 600px;
     }
 
     hr {
@@ -276,37 +278,45 @@ footer {
 /* Portfolio layout */
 
     .cat-1 {
-        margin: 10px 10px 30px 30px;
+        margin: 10px 18px 10px auto;
     }
- 
 }
     
 @media screen and (max-width: 640px) {
     
     .h-container {
-        width: 640px;
-        
+        width: 100%;
+        height: 150px;
     }
 
-    header h1 {
+    header {
+        margin-bottom: 85px;
+        width: 640px;
+    }
+
+    .logo {
         width: 640px;
         text-align: center;
         padding: 24px;
-        margin: 0;
+    }
+
+    nav {
+        float: none;
+
     }
 
     nav ul {
-        margin-left: 182px;
-        padding: 20px 0;
+        padding-top: 22px;
+        margin-left: 165px;
     }
 
     li {
-        margin: 0 20px;
+        margin: 0 25px;
     }
 
     #container {
-        width: 580px;
-        margin-left: 30px;
+        width: 590px;
+        margin-left: 25px;
     }
 
     section p {
@@ -321,6 +331,5 @@ footer {
     .cat-1 {
         margin: 10px 0 10px 125px;
     }
-
 }
 
